@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Functionality Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML Functionality Showcase</h1>
+        <p>This page demonstrates the core features of HTML.</p>
+    </header>
+
+    <!-- Text Formatting -->
+    <section>
+        <h2>1. Text Formatting</h2>
+        <p>This is a <strong>bold</strong> text.</p>
+        <p>This is an <em>italic</em> text.</p>
+        <p>This is <u>underlined</u> text.</p>
+        <p>This is <s>strikethrough</s> text.</p>
+        <p>This is <mark>highlighted</mark> text.</p>
+        <p>This is <sup>superscript</sup> and <sub>subscript</sub> text.</p>
+    </section>
+
+    <!-- Links -->
+    <section>
+        <h2>2. Links</h2>
+        <p>Visit <a href="https://www.example.com" target="_blank">Example.com</a> (opens in a new tab).</p>
+        <p>Send an email to <a href="mailto:example@example.com">example@example.com</a>.</p>
+    </section>
+
+    <!-- Images -->
+    <section>
+        <h2>3. Images</h2>
+        <img src="pexels-luis-gomes-166706-546819.jpg" width="150" alt="Placeholder Image">
+        <p>This is a placeholder image.</p>
+    </section>
+
+    <!-- Lists -->
+    <section>
+        <h2>4. Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+    </section>
+
+    <!-- Tables -->
+    <section>
+        <h2>5. Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td>Row 1, Cell 2</td>
+                    <td>Row 1, Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell 1</td>
+                    <td>Row 2, Cell 2</td>
+                    <td>Row 2, Cell 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Forms -->
+    <section>
+        <h2>6. Forms</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label>Hobbies:</label>
+            <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+            <label for="hobby1">Reading</label>
+            <input type="checkbox" id="hobby2" name="hobby2" value="traveling">
+            <label for="hobby2">Traveling</label><br><br>
+            <label>Subscribe to newsletter:</label>
+            <input type="radio" id="subscribe_yes" name="subscribe" value="yes">
+            <label for="subscribe_yes">Yes</label>
+            <input type="radio" id="subscribe_no" name="subscribe" value="no">
+            <label for="subscribe_no">No</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Multimedia -->
+    <section>
+        <h2>7. Multimedia</h2>
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h3>Video</h3>
+        <video controls width="320">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Semantic Elements -->
+    <section>
+        <h2>8. Semantic Elements</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is an example of an article. It represents independent, self-contained content.</p>
+        </article>
+        <aside>
+            <h3>Aside</h3>
+            <p>This is an aside. It represents content related to the surrounding content.</p>
+        </aside>
+        <footer>
+            <p>This is a footer. It typically contains information about the author, copyright, or links.</p>
+        </footer>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 HTML Functionality Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
