@@ -172,19 +172,33 @@ body {
 }
 
 .project {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(250px, auto);
-  grid-gap: 0.9rem;
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; /* Adjust the gap as needed */
 }
-
+.card .project-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .card .project-bio p {
   font-size: 0.83rem;
+  margin: auto;
+  text-align: center;
+  
 }
 
 .card .project-bio h3 {
   font-size: 0.9rem;
+ 
+  
 }
 
 .project-info {
