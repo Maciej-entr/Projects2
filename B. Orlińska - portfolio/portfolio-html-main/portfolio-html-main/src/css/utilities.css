@@ -105,6 +105,7 @@ h2::selection {
   border-radius: 5px;
   transition: 0.4s ease-in-out;
   cursor: pointer;
+  
 }
 
 .card a {
@@ -130,33 +131,29 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(#) center center/cover;
+  background: url(../assets/Medieval\ Town.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(#) center center/cover;
+  background: url(../assets/cosmic.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(#) center center/cover;
+  background: url(../assets/gamejams.png) center center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(#) center center/cover;
+  background: url(../assets/pyxis.png) center center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(#) center center/cover;
+  background: url(../assets/derek.png) center center/cover;
 }
 
-/* Project 6 */
-.card:nth-child(6) {
-  background: url(#) center center/cover;
-}
 
 /* Media Queries */
 @media (max-width: 768px) {
