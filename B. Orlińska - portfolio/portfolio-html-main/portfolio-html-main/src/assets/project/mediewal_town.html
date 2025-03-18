@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../css/style.css" />
     <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="./medieval.css">
   </head>
   <body>
     <header id="hero">
@@ -69,6 +70,216 @@
         </div>
       </nav>
       </header>
+      <section>
+        <div class="pig-container">
+          <div class="photo">
+              <img src="../Medieval Town.png" alt="">
+          </div>
+          <div class="text">
+              <h1>
+                Medieval Town - The Broken Cart Quest (2024)
+              </h1>
+              <h2>
+                Girls in the Game! mentorship program
+              </h2>
+              <p>
+                This is my main project from my mentorship at CD Projekt Red thanks to the "Dziewczyny w Grze!" program. The designing process started in June 2023 and finished with the end of the 2nd edition of the program in February 2024. It was also my first big project in Unreal Engine 5.
+<br><br>
+The world setting is inspired by medieval times and "The Witcher" games.
+<br><br>
+The level contains a quest - "Broken Cart" - a simple fetch quest with a stealth encounter, in which you need to help a salesman that has had an accident by notifying his relatives and bringing him a healing potion. The level consists of several stages that are marked in the video below.
+
+
+                </p>  
+                </div>
+      </div>
+      </section>
+      <section>
+        <div class="pig-container">
+          <div class="background">
+              <div class="frame">
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/VPCokDfYyik" title="Medieval Town Full Level Walkthrough - Beata Orlińska DwG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          </div>
+          <div class="text2">
+              <h3>
+                <b> What I have learned from the project: </b> 
+              </h3>
+              <ul>
+                <li>Using Unreal Engine 5 (creating block-outs, materials, blueprints)</li>
+                <li>Designing stealth encounters</li>
+                <li>Learning the Level Design pipeline</li>
+                <li>Iterating on a block-out</li>
+                  <li>Implementing a quest in a quest system</li>
+                  <li>Basic composition skills</li>
+                  <li>Color coding</li>
+                  </ul>
+          </div>
+          </div>
+      </section>
+      <section>
+        <div class="divisor1">
+          <h1>Level Overview</h1>
+        </div>
+        <div class="divisor">
+          <h1>Vistas from different parts of the level</h1>
+        </div>
+        <div class="img1">
+          <img src="../medieval/image (15).png" alt="">
+        </div>
+
+      </section>
+      <section>
+        <div class="divisor2">
+          <h1>Player's path and main locations</h1>
+        </div>
+        <div class="img2">
+          <img src="../medieval/image (13).png" alt="">
+        </div>
+      </section>
+      <section>
+        <div class="divisor3">
+          <h1>The designing process</h1>
+        </div>
+        <div class="divisor4">
+          <h1>1. Finding references</h1>
+        </div>
+        <div class="imgs">
+          <div class="img3">
+            <img src="../medieval/image (1).jpg" alt="">
+            <a href="https://www.medievalchronicles.com/medieval-life/medieval-village/
+            ">CLick for reference</a>
+          </div>
+          <div class="img4">
+            <img src="../medieval/image (14).png" alt="">
+            <a href="https://iasnext.com/erosional-landforms-geography-upsc/">CLick for reference</a>
+          </div>
+          <div class="img5">
+            <img src="../medieval/image (5).png" alt="">
+            <a href="https://www.quora.com/How-were-villages-towns-and-cities-protected-during-the-Middle-ages
+            ">CLick for reference</a>
+          </div>
+        </div>
+
+      </section>
+      <section>
+        <div class="divisor5">
+          <h1>2. First block-outs</h1>
+        </div>
+        <div class="imgs2">
+          <img src="../medieval/image (7).png" alt="">
+          <img src="../medieval/image (19).png" alt="">
+        </div>
+        <div class="imgs3">
+          <img src="../medieval/image (4).png" alt="">
+          <img src="../medieval/image (6).png" alt="">
+        </div>
+
+      </section>
+      <section>
+        <div class="divisor6">
+          <h1>3. Designing a simple quest and implementing a quest system</h1>
+        </div>
+        <div class="img6">
+          <img src="../medieval/image (10).png" alt="">
+        </div>
+        <div class="texts">
+          <p>In order to implement the quest, I decided to add a quest system to the level (consisting of quest giving component, quest log, quest tracker).
+<br><br>
+            Additionally I added blueprints with location markers that tell the player on which street they are located at the moment.
+            <br><br>
+            In the meantime I added NPC blueprints that display a message to the player which gives him information about the world and the lore.</p>
+        </div>
+        <div class="img7">
+          <img src="../medieval/image (17).png" alt="">
+        </div>
+      </section>
+      <section>
+        <div class="divisor7">
+          <h1>4. Designing a stealth encounter</h1>
+        </div>
+        <div class="img8">
+          <img src="../medieval/image (16).png" alt="">
+        </div>
+        <div class="img9">
+<img src="../medieval/image (18).png" alt="">
+        </div>
+        <div class="img10">
+          <img src="../medieval/image (3).png" alt="">
+        </div>
+        <dix class="texts2">
+          <p>Creating the proper stealth encounter took quite a lot of time and iterations.
+<br><br>
+            The Town is known for its church and the citizens know that you mustn't peek or enter the Nuns Pear Orchard.
+            <br><br>
+            In order to complete the quest, the player has to steal 5 pears from said orchard.
+          <br><br>
+            The encounter consists of several parts. The first one is the introduction phase, in which the player learns about the danger of the nuns and sneaks through the graveyard into the orchard.</p>
+        </dix>
+
+      </section>
+      <section>
+        <div class="imgs4">
+          <img src="../medieval/image (11).png" alt="">
+          <img src="../medieval/image (12).png" alt="">
+        </div>
+        <div class="img11">
+          <img src="../medieval/image (20).png" alt="">
+        </div>
+        <div class="texts3">
+          <p>The player then needs to collect 5 pears that are put in boxes on the ground.
+<br> <br>
+            The orchard has an oval shape, which the player has to circle to steal the pears.</p>
+        </div>
+
+
+      </section>
+      <section>
+        <div class="imgs5">
+          <img src="../medieval/image (9).png" alt="">
+          <img src="../medieval/image (1).png" alt="">
+        </div>
+      </section>
+      <section>
+<div class="img12">
+  <img src="../medieval/image (8).png" alt="">
+</div>
+<div class="texts4">
+  <p>If the player gets caught, they get teleported inside the church and need to find a way out and back to the orchard.</p>
+</div>
+      </section>
+      <section>
+        <div class="divisor8">
+          <h1>5. Upgrading the models for a better indication of the level's "vibe"</h1>
+        </div>
+        <div class="img13">
+          <img src="../medieval/image (2).png" alt="">
+        </div>
+      </section>
+      <section>
+
+      </section>
+      <section>
+
+      </section>
+      <section>
+        
+      </section>
+      <footer id="footer1">
+        <div class="container1">
+          <a href="mailto:b.orlinska05@gmail.com">b.orlinska05@gmail.com</a>
+          <!-- Social links -->
+          <div class="social1">
+            <a href="#" target="_blank"><img src="../facebook-icon.svg" alt="Facebook" /></a>
+            <a href="#" target="_blank"><img src="../twitter-icon.svg" alt="Twitter" /></a>
+            <a href="#" target="_blank"><img src="../linkedin-icon.svg" alt="Linkedin" /></a>
+            <a href="#" target="_blank"><img src="../github-icon.svg" alt="GitHub" /></a>
+          </div>
+          <!-- Attribution -->
+          <div class="attribution1"></div>
+          <p>Copyright &copy; Beata Orlińska <span id="datee"></span>, All rights reserved</p>
+        </div>
+      </footer>
       <script src="../../js/script.js"></script>
       </body>
       </html>

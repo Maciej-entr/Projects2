@@ -124,6 +124,9 @@
     gap: 1rem;
     justify-content: center;
 }
+p{
+    color:#111111;
+}
 .images{
     display: flex;
     flex-direction: row;

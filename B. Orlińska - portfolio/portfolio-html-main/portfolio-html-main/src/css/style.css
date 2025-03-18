@@ -93,6 +93,9 @@ body {
   align-items: center;
   background: var(--bg-primary);
 }
+button:hover{
+  cursor: pointer;
+}
 
 .navbar .nav-link {
   margin: 0 1rem;
