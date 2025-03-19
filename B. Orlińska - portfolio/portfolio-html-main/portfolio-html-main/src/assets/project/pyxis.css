@@ -87,7 +87,7 @@
 .frame {
     width: 350px;
     height: 350px;
-    margin: auto;
+    
 }
 .section2{
     margin-top: 7rem;
@@ -139,6 +139,9 @@ p{
     max-height: 250px;
     margin-top: 12px;
     
+}
+.texts p{
+color: var(--text-color) ;
 }
 .sample-contents .images img {
     max-width: 100%;

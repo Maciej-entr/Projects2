@@ -16,7 +16,7 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
     color: white;
-    height: 400px;
+    height: 425px;
 }
 
 .photo img {
@@ -24,6 +24,8 @@
     position: absolute;
     left: 11rem;
     z-index: 1;
+    padding:15px;
+    background-color: #1b0f25;
 }
 
 .text p, .text h2, .text h1 {
@@ -133,12 +135,23 @@
     background-color: white;
     color: black;
     font-weight: lighter;
+    width: 1200px;
+    
+    
+}
+.divisor:nth-child(2) h1{
+    font-size: 30px;
 }
 .divisor:nth-child(1){
     top:390rem;
     background-color: white;
     color: black;
     font-weight: lighter;
+    width: 1200px;
+    
+}
+.divisor:nth-child(1) h1{
+    font-size: 30px;
 }
 .image1 img, .image3 img{
     width: 400px;
@@ -171,7 +184,7 @@
     background-color: #53276d;
     border-radius: 50px;
     width: 800px;
-    font-size: small;
+    font-size: 15px;
     padding: 60px;
     position:absolute;
     transform: translateX(-50%);
@@ -216,6 +229,16 @@
     justify-content: center;
     text-align: center;
 }
+.divisor2 h1{
+    font-size: 30px;
+}
+.divisor3 h1{
+    font-size: 30px;
+}
+.divisor4 h1{
+    font-size: 30px;
+}
+
 .text-trd{
     background-color: #53276d;
     border-radius: 50px;
@@ -329,7 +352,7 @@ margin-left: 300px;
     color: black;
     font-weight: lighter;
     width: 1200px;
-    height: 50px;
+    height: 70px;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
@@ -396,7 +419,7 @@ margin-left: 300px;
     color: black;
     font-weight: lighter;
     width: 1200px;
-    height: 50px;
+    height: 70px;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;

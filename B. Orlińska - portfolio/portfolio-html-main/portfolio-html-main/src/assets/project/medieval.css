@@ -16,7 +16,7 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
     color: white;
-    height: 400px;
+    height: 360px;
 }
 
 .photo img {
@@ -24,6 +24,8 @@
     position: absolute;
     left: 11rem;
     z-index: 1;
+    padding:15px;
+    background-color: #0b2512;
 }
 
 .text p, .text h2, .text h1 {

@@ -22,6 +22,8 @@
     position: absolute;
     left: 11rem;
     z-index: 1;
+    padding:15px;
+    background-color: #0b2512;
 }
 
 .text p, .text h2, .text h1 {
@@ -57,7 +59,7 @@
     position: absolute;
     left: 75%;
     transform: translateX(-50%);
-    top: 30rem; 
+    top: 34rem; 
     z-index: 1;
 }
 .text2 {
@@ -71,7 +73,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 30rem; 
+    top: 34rem; 
 }
 
 .text2 h3 {
@@ -100,7 +102,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 230rem; /* Adjust this value to position the footer below the last section */
+    top: 248rem; /* Adjust this value to position the footer below the last section */
 }
 
 #footer1 .container1 {
@@ -150,7 +152,7 @@
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 50rem;
+    top: 55rem;
     border-radius: 50px;
     justify-content: center;
     text-align: center;
@@ -175,7 +177,7 @@
     position: absolute;
     transform:translateX(-50%);
     left: 50%;
-    top: 54rem;
+    top: 59rem;
 }
 .image{
     display: flex;
@@ -189,7 +191,7 @@
     position: absolute;
     transform:translateX(-50%);
     left: 28.9rem;
-    top: 75rem;
+    top: 80rem;
 }
 .image img{
     height: 250px;
@@ -199,21 +201,23 @@
     border-radius: 50px;
     width: 740px;
     height: 500px;
-    padding: 2rem;
-    font-size: 10px;
+    
+    font-size: 12px;
     position: absolute;
     transform:translateX(-50%);
     left: 44rem;
-    top: 58rem;
+    top: 63rem;
     padding-left: 400px;
-    padding-top: 290px;
+    padding-top: 270px;
     padding-right: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 1rem;
     z-index: -1;
 }
 .text-nd{
     color:#e6e6e6;
     margin-left: 2rem;
-    margin-top: 1rem;
+   
 }
 .text-nd li{
     list-style: decimal;
@@ -225,7 +229,7 @@
     max-width: 900px;
     position: absolute;
     left: 25rem;
-    top: 100rem;
+    top: 104rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -234,8 +238,10 @@
     width: 330px;
     position: absolute;
     left: 9.8rem;
-    top: 98rem;
+    top: 102rem;
     z-index: 1;
+    padding:15px;
+    background-color: #F6C7F3;
 }
 
 .text1 p, .text1 h2, .text1 h1 {
@@ -271,7 +277,7 @@
     position: absolute;
     left: 75%;
     transform: translateX(-50%);
-    top: 119rem; 
+    top: 124rem; 
     z-index: 1;
 }
 .text2-1 {
@@ -285,7 +291,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 120rem; 
+    top: 125rem; 
 }
 
 .text2-1 h3 {
@@ -317,7 +323,7 @@
     max-width: 900px;
     position: absolute;
     left: 25rem;
-    top: 142rem;
+    top: 150rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -326,8 +332,10 @@
     width: 250px;
     position: absolute;
     left: 13rem;
-    top: 140rem;
+    top: 148rem;
     z-index: 1;
+    padding:15px;
+    background-color: #964667;
 }
 
 .text3 p, .text3 h2, .text3 h1 {
@@ -363,7 +371,7 @@
     position: absolute;
     left: 75%;
     transform: translateX(-50%);
-    top: 159rem; 
+    top: 174rem; 
     z-index: 1;
 }
 .text2-2 {
@@ -377,7 +385,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 160rem; 
+    top: 175rem; 
 }
 .text2-2 p{
     color: white;
@@ -414,7 +422,7 @@
     max-width: 900px;
     position: absolute;
     left: 25rem;
-    top: 182rem;
+    top: 196rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -423,8 +431,10 @@
     width: 300px;
     position: absolute;
     left: 11rem;
-    top: 180rem;
+    top: 194rem;
     z-index: 1;
+    padding:15px;
+    background-color: #1a1a1a;
 }
 
 .text4 p, .text4 h2, .text4 h1 {
@@ -458,7 +468,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 200rem; 
+    top: 218rem; 
 }
 
 .text2-4 h3 {
@@ -494,7 +504,7 @@ margin-left: 1.2rem;
     position: absolute;
     left: 79%;
     transform: translateX(-50%);
-    top: 200rem; 
+    top: 218rem; 
     z-index: 1;
 }
 .frame2{
@@ -507,7 +517,7 @@ margin-left: 1.2rem;
     position: absolute;
     left: 60%;
     transform: translateX(-50%);
-    top: 203rem; 
+    top: 221rem; 
     z-index: 1;
 }
 .frame3{
@@ -520,6 +530,6 @@ margin-left: 1.2rem;
     position: absolute;
     left: 79%;
     transform: translateX(-50%);
-    top: 212rem; 
+    top: 230rem; 
     z-index: 1;
 }
